@@ -1,6 +1,7 @@
 import React from 'react';
 import Chips from './chips';
 import Cookies from './cookies';
+import Soda from './soda';
 import { BrowserRouter, Route } from "react-router-dom";
 
 const VendingMachine = () => {
@@ -13,6 +14,9 @@ const VendingMachine = () => {
     </Route>
     <Route exact path="/cookies">
         <Cookies />
+    </Route>
+    <Route exact path="/soda">
+        <Soda />
     </Route>
     </BrowserRouter>
     </div>
