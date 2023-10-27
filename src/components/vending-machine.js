@@ -1,5 +1,6 @@
 import React from 'react';
 import Chips from './chips';
+import Cookies from './cookies';
 import { BrowserRouter, Route } from "react-router-dom";
 
 const VendingMachine = () => {
@@ -9,6 +10,9 @@ const VendingMachine = () => {
     <BrowserRouter>
     <Route exact path="/chips">
         <Chips />
+    </Route>
+    <Route exact path="/cookies">
+        <Cookies />
     </Route>
     </BrowserRouter>
     </div>
